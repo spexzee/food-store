@@ -1,0 +1,134 @@
+
+@media screen and (max-width:1024px) {
+    nav {
+        height: 7vh;
+        /* display: none; */
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav img {
+        display: block;
+        right: 12px !important;
+        width: 45px !important;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .home .home-img {
+        justify-content: center;
+    }
+
+    .home .home-img img {
+        width: 650px;
+    }
+
+    .info-text h1 {
+        letter-spacing: 5px;
+        font-size: 1.9rem;
+        text-transform: uppercase;
+    }
+
+    .info-text p {
+        letter-spacing: 0.04em;
+        font-size: 0.9rem;
+    }
+
+    .btn-click {
+        width: 250px;
+        height: 40px;
+    }
+
+    .second-section {
+        flex-direction: column-reverse;
+        justify-content: center;
+        row-gap: 3rem;
+        column-gap: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .box {
+        width: 350px;
+    }
+
+    .box h1 {
+        font-size: 1.7rem;
+        letter-spacing: 5px;
+        line-height: 1;
+    }
+
+    .box p {
+        letter-spacing: 0.04em;
+        font-size: 1rem;
+    }
+
+    .images {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    nav ul {
+        flex-direction: column;
+        margin-left: 12rem;
+        justify-content: space-evenly;
+        height: 100vh;
+    }
+
+    nav img {
+        width: 30px !important;
+    }
+
+    .info-text h1 {
+        letter-spacing: 5px;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+    }
+
+    .info-text p {
+        letter-spacing: 0.04em;
+        font-size: 0.5rem;
+    }
+
+    .btn-click {
+        width: 150px;
+        height: 30px;
+    }
+
+    .home .home-img img {
+        width: 270px;
+    }
+
+    .box {
+        width: 300px;
+    }
+
+    .box h1 {
+        font-size: 1.4rem;
+        letter-spacing: 5px;
+        line-height: 1;
+    }
+
+    .box p {
+        letter-spacing: 0.04em;
+        font-size: .8rem;
+    }
+
+    .images {
+        width: 400px;
+    }
+
+    .column-images img {
+        width: 180px;
+    }
+
+    .one-img img {
+        width: 205px;
+    }
+}
