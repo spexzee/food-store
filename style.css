@@ -19,7 +19,7 @@
 
 body {
     scroll-behavior: smooth;
-    /* overflow-x: hidden; */
+     overflow-x: hidden;
 }
 
 .background-gradient {
